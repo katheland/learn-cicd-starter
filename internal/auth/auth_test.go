@@ -29,6 +29,4 @@ func TestAPIKey(t *testing.T) {
 	if err == nil {
 		t.Errorf("There was supposed to be an error in GetAPIKey")
 	}
-	
-	t.Errorf("An on-purpose failure to check CI.")
 }
